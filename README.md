@@ -2,7 +2,7 @@
 
 This code demonstrates how to use [bgfx](https://github.com/bkaradzic/bgfx) rendering from within a [JUCE](https://github.com/juce-framework/JUCE) application. Additionally an alternative rendering of JUCE components is implemented via [nanovg](https://github.com/memononen/nanovg) (over bgfx).
 
-> When compiled as is bgfx will be using Direct3D on Windows and Metal on MacOS.
+> By default bgfx will be using Direct3D on Windows and Metal on MacOS.
 
 ## Implementation notes
 
